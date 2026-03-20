@@ -1,1 +1,4 @@
 vscode.deb filter=lfs diff=lfs merge=lfs -text
+flutter/bin/cache/* filter=lfs diff=lfs merge=lfs -text
+flutter/packages/* filter=lfs diff=lfs merge=lfs -text
+flutter/engine/src/* filter=lfs diff=lfs merge=lfs -text
